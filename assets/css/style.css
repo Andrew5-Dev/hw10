@@ -234,16 +234,27 @@ a {
     margin-left: 9px;
 
 }
+@media (max-width: 1200px) {
+    .video__iframe {
 
+        margin-top: auto;
+        margin-left: auto;
+    }
+}
 @media (max-width: 992px) {
     .experience .container {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     body {
         font-size: 18px;
     }
+    .video__iframe {
 
+        margin-top: auto;
+        margin-left: auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -253,9 +264,11 @@ a {
         justify-content: center;
         top: 0;
     }
+
     .navbar__list {
         justify-content: center;
         top: 0;
         font-size: 20px;
     }
+
 }
